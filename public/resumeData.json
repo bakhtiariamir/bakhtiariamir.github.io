@@ -2,12 +2,12 @@
   "main": {
     "name": "Amir Bakhtiari",
     "occupation": "(Web Developer)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description": "The life shorter than think about stuff",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio": "I am a learner and developer.I like listening music , watching movies and tv series. I was interested do programming since i remember and worked on multi technology ,nowadays i work on .net core.",
+    "contactmessage": "If you can think i can help you or want to message to me please send me.",
     "email": "bakhtiari.amir@gmail.com",
-    "phone": "555-555-5555",
+    "phone": "(+98)912-932-1546",
     "address": {
       "street": "(Resalat)",
       "city": "(Tehran)",
@@ -15,7 +15,7 @@
       "zip": "(---)"
     },
     "website": "http://www.bakhtiari.me",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "http://www.bakhtiari.me/resume",
     "social": [
       {
         "name": "facebook",
@@ -39,7 +39,7 @@
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "https://github.com/bakhtiariamir",
         "className": "fa fa-github"
       }
     ]
@@ -62,48 +62,119 @@
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
+        "company": "Mabna",
+        "title": "Web Developer",
+        "years": "October 2019 - Present",
         "image": "Mabna.png",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
+        "company": "Rashin",
+        "title": "Web Developer",
+        "years": "June 2019 - October 2019",
+        "image": "Sigma.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },      
+      {
+        "company": "Freelancer",
+        "title": "Full stack developer",
+        "years": "July 2018 - October 2019",
         "image" : "Sigma.png",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "company": "Sigma",
+        "title": "Full stack developer",
+        "years": "March 2016 - July 2018",
+        "image" : "Sigma.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "company": "Datiss",
+        "title": "Product Manager",
+        "years": "March 2014 - March 2016",
+        "image" : "Sigma.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "company": "Maddad Bakhtar",
+        "title": "Full stack developer",
+        "years": "September 2011 - March 2014",
+        "image" : "Sigma.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      }                  
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "C#",
+        "level": "80",
+        "image" : "Mabna.png"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": "PHP",
+        "level": "50",
+        "image" : "Mabna.png"
+      },      
+      {
+        "name": "Sql Server",
+        "level": "70",
+        "image" : "Mabna.png"
+      },
+      {
+        "name": "MySQL",
+        "level": "40",
+        "image" : "Mabna.png"
+      },      
+      {
+        "name": "MongoDB",
+        "level": "30",
+        "image" : "Mabna.png"
+      },                  
+      {
+        "name": "Git",
+        "level": "80",
+        "image" : "Mabna.png"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+        "level": "50",
+        "image" : "Mabna.png"
       }
     ]
   },

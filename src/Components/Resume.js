@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ResumeTimeLine from './ResumeTimeLine';
+import SkillComponent from './Skill';
 
 class Resume extends Component {
   render() {
@@ -16,10 +17,10 @@ class Resume extends Component {
       //       <p>{work.description}</p>
       //   </div>
       // })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
+      // var skills = this.props.data.skills.map(function(skills){
+      //   var className = 'bar-expand '+skills.name.toLowerCase();
+      //   return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      // })
     
 
     return (
@@ -65,7 +66,7 @@ class Resume extends Component {
 
 				<div className="bars">
 				   <ul className="skills">
-					  {skills}
+                  {this.props.data != null && <this.props.data.skills skills={this.props.data.skills} />}
 					</ul>
 				</div>
 			</div>
