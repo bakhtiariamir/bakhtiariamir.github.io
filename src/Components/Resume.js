@@ -21,8 +21,9 @@ class Resume extends Component {
       //   var className = 'bar-expand '+skills.name.toLowerCase();
       //   return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       // })
-    
-
+      let languages = [];
+      if (this.props.data != null ) languages = this.props.data.skills.filter(skill => skill.category == "Programming Language");
+      debugger;
     return (
       
       <section id="resume">

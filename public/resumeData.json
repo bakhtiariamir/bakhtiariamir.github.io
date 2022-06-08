@@ -142,36 +142,63 @@
     ],
     "skills": [
       {
+        "category" : "Programming Language",
         "name": "C#",
         "level": "80",
-        "image" : "Mabna.png"
+        "image" : "skills/csharp.png"
       },
       {
+        "category" : "Programming Language",
         "name": "PHP",
         "level": "50",
-        "image" : "Mabna.png"
+        "image" : "skills/csharp.png"
       },      
       {
+        "category" : "Database",
         "name": "Sql Server",
         "level": "70",
         "image" : "Mabna.png"
       },
       {
+        "category" : "Database",
         "name": "MySQL",
         "level": "40",
         "image" : "Mabna.png"
       },      
       {
+        "category" : "Database",
         "name": "MongoDB",
         "level": "30",
         "image" : "Mabna.png"
       },                  
       {
+        "category" : "Source Control",
         "name": "Git",
         "level": "80",
+        "image" : "skills/git.png"
+      },
+      {
+        "category" : "Frontend",
+        "name": "ReactJs",
+        "level": "50",
         "image" : "Mabna.png"
       },
       {
+        "category" : "Concept",
+        "name": "ReactJs",
+        "level": "50",
+        "image" : "Mabna.png"
+      },
+
+      {
+        "category" : "Business",
+        "name": "ReactJs",
+        "level": "50",
+        "image" : "Mabna.png"
+      },
+
+      {
+        "category" : "Learning",
         "name": "ReactJs",
         "level": "50",
         "image" : "Mabna.png"

@@ -16,8 +16,8 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles(theme => ({
   dot: {
-      width: 45,
-      height: 45
+    width: 45,
+    height: 45
   }
 }));
 
@@ -28,26 +28,27 @@ const CreateItems = (items) => {
       <TimelineOppositeContent
         sx={{ m: 'auto 0' }}
         align="right"
-        variant="body2"
+        variant="body1"
         color=""
       >
         {item.years}
       </TimelineOppositeContent>
       <TimelineSeparator>
         <TimelineConnector />
-        <TimelineDot className={useStyles.dot}>
+        <TimelineDot>
           <Image url={item.image} />
         </TimelineDot>
         <TimelineConnector />
       </TimelineSeparator>
       <TimelineContent sx={{ py: '7px', px: 2 }}>
-        <Typography variant="h6" component="span">
+        <Typography variant="h5" component="span" style={{ marginRight: 5 }}>
           {item.title}
         </Typography>
         <Typography variant="h6" component="span">
-          {item.company}
+          <strong>{item.company}</strong>
         </Typography>
-        <Typography>{item.description}</Typography>
+        <br />
+        <Typography variant="h6" component="span">{item.description}</Typography>
       </TimelineContent>
     </TimelineItem>
   ));
