@@ -65,8 +65,9 @@ class Resume extends Component {
             </p>
 
 				<div className="bars">
+            {this.props.data != null && <SkillComponent skills={this.props.data.skills} />}
+
 				   <ul className="skills">
-                  {this.props.data != null && <this.props.data.skills skills={this.props.data.skills} />}
 					</ul>
 				</div>
 			</div>
