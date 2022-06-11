@@ -63,6 +63,7 @@
     "work": [
       {
         "company": "Mabna",
+        "type": "FullTime",
         "title": "Web Developer",
         "years": "October 2019 - Present",
         "image": "Mabna.png",
@@ -76,6 +77,7 @@
       },
       {
         "company": "Rashin",
+        "type": "FullTime",
         "title": "Web Developer",
         "years": "June 2019 - October 2019",
         "image": "Sigma.png",
@@ -88,10 +90,11 @@
         ]
       },      
       {
-        "company": "Freelancer",
+        "company": "Parsis",
+        "type": "FullTime",
         "title": "Full stack developer",
         "years": "July 2018 - October 2019",
-        "image" : "Sigma.png",
+        "image" : "Parsis.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
@@ -102,7 +105,8 @@
       },
       {
         "company": "Sigma",
-        "title": "Full stack developer",
+        "type": "FullTime",
+        "title": "Web Developer",
         "years": "March 2016 - July 2018",
         "image" : "Sigma.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
@@ -115,9 +119,10 @@
       },
       {
         "company": "Datiss",
+        "type": "FullTime",
         "title": "Product Manager",
         "years": "March 2014 - March 2016",
-        "image" : "Sigma.png",
+        "image" : "Datiss.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
@@ -127,10 +132,11 @@
         ]
       },
       {
-        "company": "Maddad Bakhtar",
+        "company": "Datiss",
+        "type": "FullTime",
         "title": "Full stack developer",
         "years": "September 2011 - March 2014",
-        "image" : "Sigma.png",
+        "image" : "Datiss.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
@@ -138,70 +144,158 @@
             "description": ""
           }
         ]
-      }                  
+      },
+      {
+        "company": "Aris Rayaneh",
+        "type": "PartTime",
+        "title": "Full stack developer",
+        "years": "September 2011 - March 2014",
+        "image" : "Aris.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },      
+      {
+        "company": "Maddad Bakhtar",
+        "type": "FullTime",
+        "title": "Full stack developer",
+        "years": "September 2011 - March 2014",
+        "image" : "MadadBakhtar.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "company": "Parsis",
+        "type": "FullTime",
+        "title": "Full stack developer",
+        "years": "June 2007 - September 2011",
+        "image" : "Parsis.png",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "projects" : [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      }
     ],
     "skills": [
       {
-        "category" : "Programming Language",
+        "category" : "Methodology",
+        "name": "Agile",
+        "level": "60",
+        "image" : "skills/agile.png"
+      },
+      {
+        "category" : "Backend",
         "name": "C#",
         "level": "80",
         "image" : "skills/csharp.png"
       },
       {
-        "category" : "Programming Language",
+        "category" : "Backend",
         "name": "PHP",
         "level": "50",
-        "image" : "skills/csharp.png"
+        "image" : "skills/php.png"
       },      
       {
         "category" : "Database",
         "name": "Sql Server",
         "level": "70",
-        "image" : "Mabna.png"
+        "image" : "skills/sqlserver.png"
       },
       {
         "category" : "Database",
         "name": "MySQL",
         "level": "40",
-        "image" : "Mabna.png"
+        "image" : "skills/mysql.png"
       },      
       {
         "category" : "Database",
         "name": "MongoDB",
         "level": "30",
-        "image" : "Mabna.png"
+        "image" : "skills/mongodb.png"
       },                  
       {
-        "category" : "Source Control",
+        "category" : "Frontend",
+        "name": "JavaScript",
+        "level": "40",
+        "image" : "skills/javascript.png"
+      },
+      {
+        "category" : "SourceControl",
         "name": "Git",
         "level": "80",
         "image" : "skills/git.png"
-      },
+      },      
       {
-        "category" : "Frontend",
-        "name": "ReactJs",
+        "category" : "Concept",
+        "name": "Event driven architecture",
         "level": "50",
         "image" : "Mabna.png"
       },
       {
         "category" : "Concept",
-        "name": "ReactJs",
+        "name": "Domain driven design",
         "level": "50",
         "image" : "Mabna.png"
-      },
-
+      },    
+      {
+        "category" : "Concept",
+        "name": "Test-driven development",
+        "level": "50",
+        "image" : "Mabna.png"
+      },              
       {
         "category" : "Business",
-        "name": "ReactJs",
+        "name": "BPMN",
         "level": "50",
-        "image" : "Mabna.png"
+        "image" : "skills/bpmn.png"
       },
-
+      {
+        "category" : "Business",
+        "name": "ERP",
+        "level": "80",
+        "image" : "skills/erp.png"
+      },
+      {
+        "category" : "Business",
+        "name": "Strategic Planning",
+        "level": "50",
+        "image" : "skills/strategy.png"
+      },            
+      {
+        "category" : "Learning",
+        "name": "NodeJs",
+        "level": "30",
+        "image" : "skills/node.png"
+      },      
       {
         "category" : "Learning",
         "name": "ReactJs",
-        "level": "50",
-        "image" : "Mabna.png"
+        "level": "60",
+        "image" : "skills/react.png"
+      },
+      {
+        "category" : "Language",
+        "name": "Persian",
+        "level": "80",
+        "image" : "skills/persian.png"
+      },
+      {
+        "category" : "Language",
+        "name": "English",
+        "level": "60",
+        "image" : "skills/english.png"
       }
     ]
   },

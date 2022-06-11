@@ -21,8 +21,25 @@ class Resume extends Component {
       //   var className = 'bar-expand '+skills.name.toLowerCase();
       //   return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       // })
+      let methodologies = [];
+      if (this.props.data != null ) methodologies = this.props.data.skills.filter(skill => skill.category == "Methodology");
+      let backends = [];
+      if (this.props.data != null ) backends = this.props.data.skills.filter(skill => skill.category == "Backend");
+      let databases = [];
+      if (this.props.data != null ) databases = this.props.data.skills.filter(skill => skill.category == "Database");
+      let frontends = [];
+      if (this.props.data != null ) frontends = this.props.data.skills.filter(skill => skill.category == "Frontend");
+      let sourceControls = [];
+      if (this.props.data != null ) sourceControls = this.props.data.skills.filter(skill => skill.category == "SourceControl");
+      let concepts = [];
+      if (this.props.data != null ) concepts = this.props.data.skills.filter(skill => skill.category == "Concept");
+      let businesses = [];
+      if (this.props.data != null ) businesses = this.props.data.skills.filter(skill => skill.category == "Business");
+      let learnings = [];
+      if (this.props.data != null ) learnings = this.props.data.skills.filter(skill => skill.category == "Learning");
       let languages = [];
-      if (this.props.data != null ) languages = this.props.data.skills.filter(skill => skill.category == "Programming Language");
+      if (this.props.data != null ) languages = this.props.data.skills.filter(skill => skill.category == "Language");
+
       debugger;
     return (
       
@@ -54,25 +71,108 @@ class Resume extends Component {
         </div>
     </div>
 
-      <div className="row skill">
-
+    <div className="row skill">
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Methodology</span></h1>
          </div>
 
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
 				<div className="bars">
-            {this.props.data != null && <SkillComponent skills={this.props.data.skills} />}
-
-				   <ul className="skills">
-					</ul>
+            {methodologies != null && <SkillComponent skills={methodologies} />}
 				</div>
 			</div>
       </div>
+
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>Backend</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {backends != null && <SkillComponent skills={backends} />}
+				</div>
+			</div>
+      </div>
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>Database</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {databases != null && <SkillComponent skills={databases} />}
+				</div>
+			</div>
+      </div>
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>FrontEnd</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {frontends != null && <SkillComponent skills={frontends} />}
+				</div>
+			</div>
+      </div>
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>SourceControl</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {sourceControls != null && <SkillComponent skills={sourceControls} />}
+				</div>
+			</div>
+      </div>      
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>Concept</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {concepts != null && <SkillComponent skills={concepts} />}
+				</div>
+			</div>
+      </div>
+
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>Business</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {businesses != null && <SkillComponent skills={businesses} />}
+				</div>
+			</div>
+      </div>
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>Language</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {learnings != null && <SkillComponent skills={languages} />}
+				</div>
+			</div>
+      </div>      
+      <div className="row skill">
+         <div className="three columns header-col">
+            <h1><span>Learning</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+				<div className="bars">
+            {learnings != null && <SkillComponent skills={learnings} />}
+				</div>
+			</div>
+      </div>
+
    </section>
     );
     }
