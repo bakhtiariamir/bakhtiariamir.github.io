@@ -45,19 +45,18 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "َAzad University",
+        "degree": "Bachelor of Science",
+        "graduated": "July 2009",
+        "description": "Fanbazar php"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Moein High school",
+        "degree": "Mathematics ",
+        "graduated": "July 2005",
+        "description": "Accounting application with Delphi"
       }
     ],
     "work": [
@@ -66,26 +65,28 @@
         "type": "FullTime",
         "title": "Web Developer",
         "years": "October 2019 - Present",
-        "image": "Mabna.png",
+        "image": "company/Mabna.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
-            "description": ""
+            "name": "Portfolio management",
+            "technologies" : ".Net Framework 4.7 & Sql Server 2016 - MVC",
+            "description": "Asset management for fund"
           }
         ]
       },
       {
         "company": "Rashin",
         "type": "FullTime",
-        "title": "Web Developer",
+        "title": "Backend Developer",
         "years": "June 2019 - October 2019",
-        "image": "Sigma.png",
+        "image": "company/Sigma.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
-            "description": ""
+            "name": "Game management system",
+            "technologies": ".Net Framework & Sql Server & MongoDB",
+            "description": "Manage game data like event, board and etc"
           }
         ]
       },      
@@ -94,12 +95,13 @@
         "type": "FullTime",
         "title": "Full stack developer",
         "years": "July 2018 - October 2019",
-        "image" : "Parsis.png",
+        "image" : "company/Parsis.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
-            "description": ""
+            "name": "Restaurant management system(Cofeeling)",
+            "technologies": ".Net Core 3.1 & Sql Server - React js",
+            "description": "Connect restaurant , customer and  Food Supplier"
           }
         ]
       },
@@ -108,12 +110,13 @@
         "type": "FullTime",
         "title": "Web Developer",
         "years": "March 2016 - July 2018",
-        "image" : "Sigma.png",
+        "image" : "company/Sigma.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
-            "description": ""
+            "name": "Organization Portals",
+            "technologies": ".Net Framework & Sql server - Web Forms",
+            "description": "Create and manage professional organization portals"
           }
         ]
       },
@@ -122,13 +125,21 @@
         "type": "FullTime",
         "title": "Product Manager",
         "years": "March 2014 - March 2016",
-        "image" : "Datiss.png",
+        "image" : "company/Datiss.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
+            "name": "نظام پیشنهادات",
             "description": ""
-          }
+          },
+          {
+            "name": "سامانه برنامه ریزی استراتژیک",
+            "description": ""
+          },
+          {
+            "name": "سامانه ارزیابی سازمانی",
+            "description": ""
+          }                    
         ]
       },
       {
@@ -136,11 +147,11 @@
         "type": "FullTime",
         "title": "Full stack developer",
         "years": "September 2011 - March 2014",
-        "image" : "Datiss.png",
+        "image" : "company/Datiss.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
+            "name": "بودجه ریزی عملیاتی",
             "description": ""
           }
         ]
@@ -148,29 +159,37 @@
       {
         "company": "Aris Rayaneh",
         "type": "PartTime",
-        "title": "Full stack developer",
+        "title": "Designer",
         "years": "September 2011 - March 2014",
-        "image" : "Aris.png",
+        "image" : "company/Aris.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
+            "name": "تحلیل ERP",
             "description": ""
-          }
+          },
+          {
+            "name": "تحلیل Car Tracker",
+            "description": ""
+          }          
         ]
       },      
       {
         "company": "Maddad Bakhtar",
         "type": "FullTime",
-        "title": "Full stack developer",
+        "title": "Product Manager",
         "years": "September 2011 - March 2014",
-        "image" : "MadadBakhtar.png",
+        "image" : "company/MadadBakhtar.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
+            "name": "Customize and lunch erp on bargh bakhtar",
             "description": ""
-          }
+          },
+          {
+            "name": "Electronic Billing Report Generator",
+            "description": ""
+          }          
         ]
       },
       {
@@ -178,13 +197,21 @@
         "type": "FullTime",
         "title": "Full stack developer",
         "years": "June 2007 - September 2011",
-        "image" : "Parsis.png",
+        "image" : "company/Parsis.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "projects" : [
           {
-            "name": "",
+            "name": "Design ERp system for bargh bakhtar",
             "description": ""
-          }
+          },
+          {
+            "name": "Kiasa valve test",
+            "description": ""
+          },          
+          {
+            "name": "Letter automation system for yasan",
+            "description": ""
+          }          
         ]
       }
     ],
