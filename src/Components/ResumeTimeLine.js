@@ -6,31 +6,23 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 import Image from './Control/Image';
-import { makeStyles } from '@mui/styles';
-
-const useStyles = makeStyles(theme => ({
-  dot: {
-    width: 45,
-    height: 45
-  }
-}));
-
+import ListComponent from './Control/ListComponent';
 
 const CreateItems = (items) => {
   let list = items.map(item => (
-    <TimelineItem>
+    <TimelineItem key={item.name}>
       <TimelineOppositeContent
         sx={{ m: 'auto 0' }}
         align="right"
         variant="body1"
         color=""
       >
+        <Typography sx={{ fontSize: '12px', fontWeight: 'bolder' }}>
+          {item.type}
+        </Typography>
+        <br />
         {item.years}
       </TimelineOppositeContent>
       <TimelineSeparator>
@@ -42,13 +34,13 @@ const CreateItems = (items) => {
       </TimelineSeparator>
       <TimelineContent sx={{ py: '7px', px: 2 }}>
         <Typography variant="h5" component="span" style={{ marginRight: 5 }}>
-          {item.title}
+          {item.title} at {' '}
         </Typography>
         <Typography variant="h6" component="span">
           <strong>{item.company}</strong>
         </Typography>
         <br />
-        <Typography variant="h6" component="span">{item.description}</Typography>
+        {<ListComponent items={item.projects} />}
       </TimelineContent>
     </TimelineItem>
   ));
@@ -57,7 +49,6 @@ const CreateItems = (items) => {
 }
 
 const ResumeTimeLine = (props) => {
-  debugger;
   return (
 
     (props.work != undefined && props.work != null) && (

@@ -50,7 +50,7 @@
         "school": "َAzad University",
         "degree": "Bachelor of Science",
         "graduated": "July 2009",
-        "description": "Fanbazar php"
+        "description": "Fanbazar php, Seminar Management Software"
       },
       {
         "school": "Moein High school",
@@ -62,42 +62,42 @@
     "work": [
       {
         "company": "Mabna",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Web Developer",
         "years": "October 2019 - Present",
         "image": "company/Mabna.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
             "name": "Portfolio management",
-            "technologies" : ".Net Framework 4.7 & Sql Server 2016 - MVC",
+            "technologies": ".Net Framework 4.7 & Sql Server 2016 - MVC",
             "description": "Asset management for fund"
           }
         ]
       },
       {
         "company": "Rashin",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Backend Developer",
         "years": "June 2019 - October 2019",
         "image": "company/Sigma.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
             "name": "Game management system",
             "technologies": ".Net Framework & Sql Server & MongoDB",
             "description": "Manage game data like event, board and etc"
           }
         ]
-      },      
+      },
       {
         "company": "Parsis",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Full stack developer",
         "years": "July 2018 - October 2019",
-        "image" : "company/Parsis.png",
+        "image": "company/Parsis.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
             "name": "Restaurant management system(Cofeeling)",
             "technologies": ".Net Core 3.1 & Sql Server - React js",
@@ -107,12 +107,12 @@
       },
       {
         "company": "Sigma",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Web Developer",
         "years": "March 2016 - July 2018",
-        "image" : "company/Sigma.png",
+        "image": "company/Sigma.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
             "name": "Organization Portals",
             "technologies": ".Net Framework & Sql server - Web Forms",
@@ -122,207 +122,233 @@
       },
       {
         "company": "Datiss",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Product Manager",
         "years": "March 2014 - March 2016",
-        "image" : "company/Datiss.png",
+        "image": "company/Datiss.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
-            "name": "نظام پیشنهادات",
+            "name": "Redesign and refactor operational budgeting",
+            "technologies": ".Net Framework & Entity framework - MVC",
+            "description": "Change production to web application and optimizing"
+          },
+          {
+            "name": "Process and form builder base BPMN2",
+            "technologies": ".Net Framework & Sql server - MVC",
             "description": ""
           },
           {
-            "name": "سامانه برنامه ریزی استراتژیک",
+            "name": "Suggestion system",
+            "technologies": ".Net Framework & Sql server - MVC",
             "description": ""
           },
           {
-            "name": "سامانه ارزیابی سازمانی",
+            "name": "Strategic planning",
+            "technologies": ".Net Framework & Sql server - MVC",
             "description": ""
-          }                    
+          },
+          {
+            "name": "Organizational evaluation",
+            "technologies": ".Net Framework & Sql server - MVC",
+            "description": ""
+          },
+          {
+            "name": "Design Operation and dispatching module for bargh bakhtar",
+            "technologies": "UML",
+            "description": "Analysis, design and Operation unit and dispatching module"
+          }
         ]
       },
       {
         "company": "Datiss",
-        "type": "FullTime",
-        "title": "Full stack developer",
+        "type": "Full Time",
+        "title": "Senior Developer",
         "years": "September 2011 - March 2014",
-        "image" : "company/Datiss.png",
+        "image": "company/Datiss.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
-            "name": "بودجه ریزی عملیاتی",
-            "description": ""
+            "name": "Operational budgeting",
+            "technologies": ".Net Framework & Sql server - Windows form",
+            "description": "Windows application for manage organization budget base on production cost"
           }
         ]
       },
       {
         "company": "Aris Rayaneh",
-        "type": "PartTime",
+        "type": "Part Time",
         "title": "Designer",
         "years": "September 2011 - March 2014",
-        "image" : "company/Aris.png",
+        "image": "company/Aris.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
-            "name": "تحلیل ERP",
-            "description": ""
+            "name": "Redesign and refactor",
+            "technologies": "UML, C#",
+            "description": "Redesign and refactor human resource module"
           },
           {
-            "name": "تحلیل Car Tracker",
-            "description": ""
-          }          
+            "name": "Analysis and design car tracker",
+            "technologies": "UML",
+            "description": "Analysis and design car tracker"
+          }
         ]
-      },      
+      },
       {
         "company": "Maddad Bakhtar",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Product Manager",
         "years": "September 2011 - March 2014",
-        "image" : "company/MadadBakhtar.png",
+        "image": "company/MadadBakhtar.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
             "name": "Customize and lunch erp on bargh bakhtar",
+            "technologies": ".Net Framework & Sql server - MVC",
             "description": ""
           },
           {
             "name": "Electronic Billing Report Generator",
-            "description": ""
-          }          
+            "technologies": ".Net Framework & Sql server & db2 - MVC",
+            "description": "Report generator with multiple database source"
+          }
         ]
       },
       {
         "company": "Parsis",
-        "type": "FullTime",
+        "type": "Full Time",
         "title": "Full stack developer",
-        "years": "June 2007 - September 2011",
-        "image" : "company/Parsis.png",
+        "years": "June 2005 - September 2011",
+        "image": "company/Parsis.png",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "projects" : [
+        "projects": [
           {
-            "name": "Design ERp system for bargh bakhtar",
-            "description": ""
+            "name": "Design ERP system for bargh bakhtar",
+            "technologies": "UML",
+            "description": "Analysis, design and document human resources, accounting and finance, etc"
           },
           {
             "name": "Kiasa valve test",
-            "description": ""
-          },          
+            "technologies": ".Net Framework & Sql server - WinForms",
+            "description": "Windows application for automate valve production planning and test"
+          },
           {
             "name": "Letter automation system for yasan",
-            "description": ""
-          }          
+            "technologies": "PHP 5.0 & MySql",
+            "description": "Web application for Internal correspondence"
+          }
         ]
       }
     ],
     "skills": [
       {
-        "category" : "Methodology",
+        "category": "Methodology",
         "name": "Agile",
         "level": "60",
-        "image" : "skills/agile.png"
+        "image": "skills/agile.png"
       },
       {
-        "category" : "Backend",
+        "category": "Backend",
         "name": "C#",
         "level": "80",
-        "image" : "skills/csharp.png"
+        "image": "skills/csharp.png"
       },
       {
-        "category" : "Backend",
+        "category": "Backend",
         "name": "PHP",
         "level": "50",
-        "image" : "skills/php.png"
-      },      
+        "image": "skills/php.png"
+      },
       {
-        "category" : "Database",
+        "category": "Database",
         "name": "Sql Server",
         "level": "70",
-        "image" : "skills/sqlserver.png"
+        "image": "skills/sqlserver.png"
       },
       {
-        "category" : "Database",
+        "category": "Database",
         "name": "MySQL",
         "level": "40",
-        "image" : "skills/mysql.png"
-      },      
+        "image": "skills/mysql.png"
+      },
       {
-        "category" : "Database",
+        "category": "Database",
         "name": "MongoDB",
         "level": "30",
-        "image" : "skills/mongodb.png"
-      },                  
+        "image": "skills/mongodb.png"
+      },
       {
-        "category" : "Frontend",
+        "category": "Frontend",
         "name": "JavaScript",
         "level": "40",
-        "image" : "skills/javascript.png"
+        "image": "skills/javascript.png"
       },
       {
-        "category" : "SourceControl",
+        "category": "SourceControl",
         "name": "Git",
         "level": "80",
-        "image" : "skills/git.png"
-      },      
+        "image": "skills/git.png"
+      },
       {
-        "category" : "Concept",
+        "category": "Concept",
         "name": "Event driven architecture",
         "level": "50",
-        "image" : "Mabna.png"
+        "image": "company/Mabna.png"
       },
       {
-        "category" : "Concept",
+        "category": "Concept",
         "name": "Domain driven design",
         "level": "50",
-        "image" : "Mabna.png"
-      },    
+        "image": "company/Mabna.png"
+      },
       {
-        "category" : "Concept",
+        "category": "Concept",
         "name": "Test-driven development",
         "level": "50",
-        "image" : "Mabna.png"
-      },              
+        "image": "company/Mabna.png"
+      },
       {
-        "category" : "Business",
+        "category": "Business",
         "name": "BPMN",
         "level": "50",
-        "image" : "skills/bpmn.png"
+        "image": "skills/bpmn.png"
       },
       {
-        "category" : "Business",
+        "category": "Business",
         "name": "ERP",
         "level": "80",
-        "image" : "skills/erp.png"
+        "image": "skills/erp.png"
       },
       {
-        "category" : "Business",
+        "category": "Business",
         "name": "Strategic Planning",
         "level": "50",
-        "image" : "skills/strategy.png"
-      },            
+        "image": "skills/strategy.png"
+      },
       {
-        "category" : "Learning",
+        "category": "Learning",
         "name": "NodeJs",
         "level": "30",
-        "image" : "skills/node.png"
-      },      
+        "image": "skills/node.png"
+      },
       {
-        "category" : "Learning",
+        "category": "Learning",
         "name": "ReactJs",
         "level": "60",
-        "image" : "skills/react.png"
+        "image": "skills/react.png"
       },
       {
-        "category" : "Language",
+        "category": "Language",
         "name": "Persian",
         "level": "80",
-        "image" : "skills/persian.png"
+        "image": "skills/persian.png"
       },
       {
-        "category" : "Language",
+        "category": "Language",
         "name": "English",
         "level": "60",
-        "image" : "skills/english.png"
+        "image": "skills/english.png"
       }
     ]
   },
