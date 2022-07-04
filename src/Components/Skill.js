@@ -31,9 +31,6 @@ const CreateItems = (items) => {
     textColor: '#f88',
     trailColor: '#d6d6d6',
     backgroundColor: '#3e98c7',
-
-
-
                     })}>
                     <Tooltip title={<h6 style={{ color: "lightblue" }}>{item.name}</h6>}>
                         <div style={{ fontSize: 8, marginTop: -20 }}>
@@ -41,7 +38,7 @@ const CreateItems = (items) => {
                         </div>
                     </Tooltip>
                     <div style={{ fontSize: 10, marginTop: -10 }}>
-                        <strong>{item.level}%</strong>
+                        {/* <strong>{item.level}%</strong> */}
                     </div>
                 </CircularProgressbarWithChildren>
             </Grid>
